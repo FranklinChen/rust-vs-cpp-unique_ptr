@@ -1,4 +1,5 @@
 # Makefile; works for Mac OS X Yosemite with default c++ (clang++)
+# -std=c++14 not available for Mac yet.
 CXXFLAGS = -Wall -std=c++1y
 RUSTC = rustc
 
