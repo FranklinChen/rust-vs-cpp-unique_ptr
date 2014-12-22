@@ -1,3 +1,4 @@
+// Simulate a segmentation fault.
 fn seg_fault() {
     panic!("segmentation fault");
 }

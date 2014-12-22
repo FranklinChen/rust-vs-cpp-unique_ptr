@@ -3,10 +3,10 @@
 CXXFLAGS = -Wall -std=c++1y
 RUSTC = rustc
 
-all:	unique_ptr_simulation seg_fault_in_vector
+all:	steve_seg_fault unique_ptr_simulation seg_fault_in_vector rc_out_of_vector unsafe_seg_fault
 
 # illegal_move_out_of_vector will fail to type-check.
-fail:	illegal_move_out_of_vector
+fail:	steve_illegal_move illegal_move_out_of_vector
 
 clean:
 	rm -f unique_ptr_simulation seg_fault_in_vector

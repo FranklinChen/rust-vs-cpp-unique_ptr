@@ -1,2 +1,6 @@
 seg_fault_in_vector
 unique_ptr_simulation
+rc_out_of_vector
+steve_illegal_move
+steve_seg_fault
+unsafe_seg_fault
